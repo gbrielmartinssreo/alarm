@@ -1,0 +1,30 @@
+
+meu_app/
+├── app/                      # Diretório principal da aplicação
+│   ├── __init__.py           # Torna a pasta "app" um pacote Python
+│   ├── main.py               # Arquivo principal do app (ponto de entrada)
+│   ├── views/                # Contém as interfaces gráficas (telas)
+│   │   ├── __init__.py       # Torna "views" um pacote
+│   │   ├── home.py           # Tela inicial ou principal
+│   │   ├── settings.py       # Tela de configurações (exemplo)
+│   │   └── ...               # Outras telas
+│   ├── assets/               # Recursos como imagens, ícones e outros
+│   │   ├── icons/            # Ícones do app
+│   │   └── images/           # Outras imagens
+│   ├── utils/                # Funções auxiliares e utilitários
+│   │   ├── __init__.py       # Torna "utils" um pacote
+│   │   ├── helpers.py        # Funções auxiliares (manipulação de strings, etc.)
+│   │   └── ...               # Outros arquivos auxiliares
+│   ├── components/           # Componentes reutilizáveis (botões personalizados, etc.)
+│   │   ├── __init__.py       # Torna "components" um pacote
+│   │   ├── custom_button.py  # Exemplo de componente personalizado
+│   │   └── ...               # Outros componentes
+│   ├── config.py             # Configurações globais do aplicativo
+│   └── ...                   # Outros arquivos do app
+├── tests/                    # Testes do projeto
+│   ├── __init__.py           # Torna "tests" um pacote
+│   ├── test_main.py          # Testes para o arquivo main.py
+│   └── ...                   # Outros arquivos de teste
+├── .gitignore                # Ignorar arquivos específicos no Git
+├── requirements.txt          # Dependências do projeto (CustomTkinter, Pillow, etc.)
+└── README.md                 # Documentação básica do projeto
