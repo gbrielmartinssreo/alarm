@@ -1,4 +1,3 @@
-
 import customtkinter as ctk
 from views.home import Home
 
